@@ -1,27 +1,80 @@
 * {
-    border-color: red;
-    border: 5px;
+    margin:0;
+    border:0;
+    padding:0;
+
 }
-header{
+/**/
+.hero{
+    border:solid;
+    height:500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+/* box inside the hero, to center the other content*/
+.hero-items1{
+    display:flex;
+    gap:80px;
+    align-items: center;
+}
+
+/*Hero header*/
+.hero-items2 h2{
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+/*Hero subtext*/
+.hero-items2 p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*Hero button*/
+.hero-items2 button{
+    font-size: 18px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px;
     margin-top: 20px;
+}
+
+/*Hero lemon cake image*/
+.hero-items2 img{
+    height:250px;
+}
+
+/*Header*/
+header{
+
     display: flex;
+    font-size:18px;
+    background-color: #1f2937;
+    color:#f9faf8;
+    height:60px;
+    align-items: center;
 }
 
 nav{
     display:flex;
-    justify-content:space-evenly;
-    flex: 1;
+    justify-content:space-around;
+    flex: 1 1 200px;
 }
 
-.nav_{
+.nav{
     font-size: 18px;
-    color: #E5E7EB;
-    flex: 1;
+    flex: 1 0 100px;
+    color:#E5E7EB;
 }
 
 .logo_container{
-    flex: 1;
+    flex: 1 0 200px;
+    margin-left: 200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
+    font-size:24px;
 }
 
