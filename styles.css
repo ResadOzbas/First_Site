@@ -80,13 +80,12 @@ nav{
 
 /*main section*/
 .main{
-    border: solid;
-    height: 300px;
+     height: 300px;
 }
 
 /*main information section*/
 .main1{
-    border:solid;
+    
     display: flex;
     justify-content: center;
 }
@@ -105,9 +104,52 @@ nav{
     margin-top: 20px;
     display: flex;
     gap: 10px;
+    margin-bottom: 30px;
 }
 
 .image{
     height: 150px;
+    
 }
+
+.main2{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:36px;
+    color: #1f2937;
+    background-color: #E5E7EB;
+}
+
+.main3{
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3_flex{
+    display: flex;
+    background-color: #3882f6;
+    height: 100px;
+    width: 80%;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.main3_flex button{
+    background-color: #3882f6;
+    border: solid 1px;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    margin-left: 400px;
+}
+
+.main3_flex p{
+    margin-left: 30px;
+}
+
+
 
